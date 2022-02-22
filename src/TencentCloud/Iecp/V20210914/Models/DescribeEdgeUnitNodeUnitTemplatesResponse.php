@@ -22,9 +22,9 @@ use TencentCloud\Common\AbstractModel;
  *
  * @method integer getTotal() 获取符合查询条件的记录总数
  * @method void setTotal(integer $Total) 设置符合查询条件的记录总数
- * @method array getNodeUnitTemplates() 获取NodeUnit模版列表
+ * @method array getNodeUnitTemplates() 获取NodeUnit模板列表
 注意：此字段可能返回 null，表示取不到有效值。
- * @method void setNodeUnitTemplates(array $NodeUnitTemplates) 设置NodeUnit模版列表
+ * @method void setNodeUnitTemplates(array $NodeUnitTemplates) 设置NodeUnit模板列表
 注意：此字段可能返回 null，表示取不到有效值。
  * @method string getRequestId() 获取唯一请求 ID，每次请求都会返回。定位问题时需要提供该次请求的 RequestId。
  * @method void setRequestId(string $RequestId) 设置唯一请求 ID，每次请求都会返回。定位问题时需要提供该次请求的 RequestId。
@@ -37,7 +37,7 @@ class DescribeEdgeUnitNodeUnitTemplatesResponse extends AbstractModel
     public $Total;
 
     /**
-     * @var array NodeUnit模版列表
+     * @var array NodeUnit模板列表
 注意：此字段可能返回 null，表示取不到有效值。
      */
     public $NodeUnitTemplates;
@@ -49,7 +49,7 @@ class DescribeEdgeUnitNodeUnitTemplatesResponse extends AbstractModel
 
     /**
      * @param integer $Total 符合查询条件的记录总数
-     * @param array $NodeUnitTemplates NodeUnit模版列表
+     * @param array $NodeUnitTemplates NodeUnit模板列表
 注意：此字段可能返回 null，表示取不到有效值。
      * @param string $RequestId 唯一请求 ID，每次请求都会返回。定位问题时需要提供该次请求的 RequestId。
      */
